@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>vitejs_boiler</title>
+  </head>
+  <body>
+    <div class="app">
+      <form class="">
+        <input type="text" class="">
+        <button class="boton1">Enviar</button>
+      </form>
+
+      <div class="footer">
+        <button class="reset_list">Resetear Lista</button>
+      </div>
+      
+      <div class="alert flex flex-row hidden">
+        <p>El pokemon no existe</p>
+        <button class="botonError">Resetear</button>
+      </div>
+
+      <div class="pokemon_card_holder">
+        <div class="pokemon">
+          <h3>title</h3>
+          <picture>
+            <img src="" alt="">
+          </picture>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+      
+
+      <div class="loader fixed top-0 left-0 w-full h-full bg-slate-900 bg-opacity-70 flex justify-center items-center hidden">
+        <div class="loader_holder">
+          ..loading..
+        </div>
+      </div>
+
+    </div>
+    <script type="module" src="/app/main.js"></script>
+  </body>
+</html>
